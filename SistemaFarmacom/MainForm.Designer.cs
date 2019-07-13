@@ -86,6 +86,7 @@
             this.consultaUsuariosToolStripMenuItem.Name = "consultaUsuariosToolStripMenuItem";
             this.consultaUsuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.consultaUsuariosToolStripMenuItem.Text = "Consulta Usuarios";
+            this.consultaUsuariosToolStripMenuItem.Click += new System.EventHandler(this.ConsultaUsuariosToolStripMenuItem_Click);
             // 
             // reporteUsuariosToolStripMenuItem
             // 
