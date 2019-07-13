@@ -7,14 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using SistemaFarmacom.Registros;
 namespace SistemaFarmacom
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void RegistroUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rUsuarios VisualizarVentana = new rUsuarios();
+            VisualizarVentana.Show();
         }
     }
 }
